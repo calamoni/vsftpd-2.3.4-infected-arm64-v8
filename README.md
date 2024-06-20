@@ -15,5 +15,5 @@ docker run -it --rm -p 21:21 -p 6200:6200 backdoored-vsftpd-2.3.4
 ```
 <bold> From Docker Hub </bold>
 ```
-docker run -it --rm -p 21:21 -p 6200:6200 
+docker run -it --rm -p 21:21 -p 6200:6200 calamoni/vsftpd-2.3.4-infected-arm64-v8:vsftpd-2.3.4
 ```
