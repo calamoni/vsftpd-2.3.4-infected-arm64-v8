@@ -1,7 +1,7 @@
 # vsftpd-2.3.4-infected-arm64-v8
 
 A repository for the infected version of VSFTPD 2.3.4 with purposes of containerized educational testing. \
-The motivation for compiling this binary for arm64 architecture was to be able to use it with a Raspberry Pi :) \ 
+The motivation for compiling this binary for arm64 architecture was to be able to use it with a Raspberry Pi :) 
 
 # Instructions
 
