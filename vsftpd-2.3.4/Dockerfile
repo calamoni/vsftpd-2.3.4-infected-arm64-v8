@@ -8,11 +8,11 @@ RUN apt-get install -y git
 WORKDIR /root/
 
 RUN git clone https://github.com/calamoni/vsftpd-2.3.4-infected-arm64-v8.git && \
-	cd vsftpd-2.3.4-infected-arm64-v8.git && \
+	cd vsftpd-2.3.4-infected-arm64-v8 && \
 	cd vsftpd-2.3.4 && \
 	mv * /root/ && \
 	cd /root && \
-	rm -rfv vsftpd-2.3.4-infected-arm64-v8.git
+	rm -rfv vsftpd-2.3.4-infected-arm64-v8
  
 RUN apt-get update && apt-get install -y \
     libssl3 \
