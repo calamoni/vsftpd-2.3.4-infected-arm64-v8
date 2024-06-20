@@ -32,10 +32,6 @@ RUN mkdir /usr/share/empty/ && \
 RUN chown root.root /var/ftp && \
 	chmod og-w /var/ftp
 
-COPY vsftpd /usr/local/sbin/vsftpd 
-
-COPY vsftpd.conf /etc/
-
 RUN echo 'echo Started FTP Server@ `hostname -i 2>/dev/null`:21' > /root/run.sh && \
 	echo "/usr/local/sbin/vsftpd" >> /root/run.sh
 
