@@ -4,6 +4,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update -y
 RUN apt-get install -y git
+RUN apt-get install -y python3 # This is to install Python3 for interactive shell for student instruction. 
 
 WORKDIR /root/
 
